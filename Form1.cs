@@ -65,7 +65,7 @@ namespace game15
                 arr[i] = temp;
             }
 
-            //Class2.visual();
+            Class2.visual();
             button17.Focus();
         }
         public void render()
