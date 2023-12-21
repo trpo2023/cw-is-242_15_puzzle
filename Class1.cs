@@ -14,15 +14,15 @@ namespace game15
     public static void button_Click(object sender, EventArgs e)
     {
         move(((Button)sender).Text);
-        //Class2.visual();
+        Class2.visual();
         Program.Win.render();
-        //if (Class2.check())
-        //{
-        //    MessageBox.Show("Игра закончена!", "ПОБЕДА!");
-        //};
-    }
+        if (Class2.check())
+            {
+                MessageBox.Show("Игра закончена!", "ПОБЕДА!");
+            };
+        }
 
-    public static void move(String btn)
+        public static void move(String btn)
     {
         int pos;
 
