@@ -37,7 +37,7 @@ namespace game_15
                     if (i * 4 + j == 15) break;
                     btns[i * 4 + j].BackColor = Color.White;
                     btns[i * 4 + j].Visible = true;
-                    //btns[i * 4 + j].Click += Class1.button_Click;
+                    btns[i * 4 + j].Click += Class1.button_Click;
                     
                     
                     this.Controls.Add(btns[i * 4 + j]);
@@ -47,7 +47,7 @@ namespace game_15
             btns[15].BackColor = Color.White;
             this.Controls.Add(btns[15]);
             btns[15].Visible = false;
-            //btns[15].Click += Class1.button_Click;
+            btns[15].Click += Class1.button_Click;
             ////InitializeComponent();
             this.Invalidate();
 
@@ -65,7 +65,7 @@ namespace game_15
                 arr[i] = temp;
             }
 
-            //Class2.visual();
+            Class2.visual();
             button17.Focus();
         }
         public void render()
