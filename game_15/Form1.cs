@@ -1,4 +1,4 @@
-namespace game_15_puzzle
+namespace game_15
 {
     public partial class Form1 : Form
     {
