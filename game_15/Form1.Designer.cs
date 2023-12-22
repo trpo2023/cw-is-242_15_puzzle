@@ -1,4 +1,4 @@
-namespace game15
+namespace game_15
 {
     partial class Form1
     {
