@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 
-namespace game_15
+namespace  game_15
 {
    
     public partial class Form1 : Form
